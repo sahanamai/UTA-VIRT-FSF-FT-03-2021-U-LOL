@@ -2,7 +2,7 @@
 
 In this activity, we will explore configuring the local Git default branch to `main`. We will also review another way to create a repository, using the `git init` command. Lastly, we will review the `git pull` command.
 
-Git is an important tool that allows developers to track and store versions of content. It also enables you to collaborate and share code with others. During this boot camp, you'll use Git to share code via a class repository, which you'll be required to pull down before each class. In addition, for each homework assignment, you'll provide the grading team with a link to the GitHub repository that contains your code. 
+Git is an important tool that allows developers to track and store versions of content. It also enables you to collaborate and share code with others. During this boot camp, you'll use Git to share code via a class repository, which you'll be required to pull down before each class. In addition, for each homework assignment, you'll provide the grading team with a link to the GitHub repository that contains your code.
 
 For more information, review the [Full-Stack Blog guide on getting started with Git](https://coding-boot-camp.github.io/full-stack/git/getting-started-with-git).
 
@@ -10,7 +10,7 @@ For more information, review the [Full-Stack Blog guide on getting started with 
 
 First we need to set the local Git default branch to `main`.
 
-Historically, the most common name for the main body of a codebase has been `master`. However, `main` has been gaining in popularity. In fact, GitHub now uses `main` as the default name for its repositories&mdash;as do the projects in this course. 
+Historically, the most common name for the main body of a codebase has been `master`. However, `main` has been gaining in popularity. In fact, GitHub now uses `main` as the default name for its repositories&mdash;as do the projects in this course.
 
 While GitHub has changed their default branch conventions, your local machine will still initialize projects using the `master` branch. Therefore, you'll need to manually change it to `main`.
 
@@ -76,7 +76,7 @@ First let's run `git status` to check the status of the files:
 We should see that `index.html` is currently untracked. Let's add that file to be tracked:
 
   ```bash
-  git add .
+  git add -A
   ```
 
 Now if we run `git status` again, we should see that the file is being tracked and is ready to be committed:
@@ -87,7 +87,7 @@ Now if we run `git status` again, we should see that the file is being tracked a
 
 Now we are ready to connect the local repository to a remote repository on GitHub!
 
-To create a remote repository to store the code, navigate to [GitHub](https://github.com/) and create a new repository by clicking on the green New button at the top left and entering the project name, `git-init-sample`, in the "Repository Name" box. 
+To create a remote repository to store the code, navigate to [GitHub](https://github.com/) and create a new repository by clicking on the green New button at the top left and entering the project name, `git-init-sample`, in the "Repository Name" box.
 
 > **Important**: Because we are importing an existing repository, make that sure none of the options are checked!
 
@@ -133,11 +133,11 @@ Both messages indicate that the `git pull` command has been successfully perform
 
 You can review the changed files by opening them in VS Code.
 
-## Share Remote Repository URL 
+## Share Remote Repository URL
 
-For each unit's Homework, you'll be required to share the URL of your repository. 
+For each unit's Homework, you'll be required to share the URL of your repository.
 
-To share the URL, navigate to your repository on GitHub. Then copy the URL from the address bar and share it with your partner in Slack. To view your partner's repository, simply click on the shared link. 
+To share the URL, navigate to your repository on GitHub. Then copy the URL from the address bar and share it with your partner in Slack. To view your partner's repository, simply click on the shared link.
 
 ## Notes
 
